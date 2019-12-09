@@ -1,0 +1,28 @@
+{
+  "semantics": [
+    {
+      "label": "Beschreibung",
+      "description": "Beschreibe, was für die Bestätigung relevant ist."
+    },
+    {
+      "label": "Verhaltenseinstellungen",
+      "description": "Diese Optionen legen fest, wie der Bestätigungsdialog im Detail funktioniert.",
+      "fields": [
+        {
+          "label": "Bei Klick deaktivieren",
+          "description": "Wenn hier angewählt, wird das Checkbox-Feld nach einem Klick deaktiviert."
+        }
+      ]
+    },
+    {
+      "label": "Bedienoberfläche",
+      "default": "Ich habe den Inhalt abgeschlossen.",
+      "fields": [
+        {
+          "label": "Text des Checkbox-Felds",
+          "description": "Aussage, die beschreibt, was durch das Setzen des Häkchens bestätigt wird."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.h5p-completion-confirmation {
+  margin: 0.5em;
+}
+
+.h5p-completion-confirmation .h5p-completion-confirmation-box-description h2:first-child,
+.h5p-completion-confirmation .h5p-completion-confirmation-box-description h3:first-child,
+.h5p-completion-confirmation .h5p-completion-confirmation-box-description p:first-child,
+.h5p-completion-confirmation .h5p-completion-confirmation-box-description pre:first-child {
+  margin-top: 0;
+}

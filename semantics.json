@@ -1,0 +1,61 @@
+[
+  {
+    "label": "Description",
+    "description": "Describe what is relevant about this confirmation",
+    "optional": true,
+    "importance": "high",
+    "name": "description",
+    "type": "text",
+    "widget": "html",
+    "enterMode": "div",
+    "tags": [
+      "strong",
+      "em",
+      "u",
+      "a",
+      "ul",
+      "ol",
+      "h2",
+      "h3",
+      "hr",
+      "pre",
+      "code"
+    ]
+  },
+  {
+    "name": "behaviour",
+    "type": "group",
+    "label": "Behavioural settings",
+    "importance": "low",
+    "description": "These options will let you control how the task behaves.",
+    "optional": true,
+    "default": false,
+    "fields": [
+      {
+        "name": "disableOnCheck",
+        "type": "boolean",
+        "label": "Disable on checked",
+        "description": "If activated, the checkbox will be disabled after it has been checked.",
+        "optional": true,
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "l10n",
+    "type": "group",
+    "common": true,
+    "label": "User interface",
+    "importance": "low",
+    "default": "I have completed the content.",
+    "fields": [
+      {
+        "name": "checkBoxText",
+        "type": "text",
+        "label": "Checkbox text",
+        "description": "Statement that describes what's confirmed by checking the checkbox.",
+        "importance": "low"
+      }
+    ]
+  }
+]
