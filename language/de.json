@@ -11,6 +11,10 @@
         {
           "label": "Bei Klick deaktivieren",
           "description": "Wenn hier angewählt, wird das Checkbox-Feld nach einem Klick deaktiviert."
+        },
+        {
+          "label": "Zu meldende Punkte",
+          "description": "Lege die Punkte fest, die bei Bestätigung gemeldet werden."
         }
       ]
     },

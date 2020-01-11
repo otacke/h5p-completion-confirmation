@@ -12,7 +12,10 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     // Sanitize params
     this.params = Util.extend({
-      behaviour: false,
+      behaviour: {
+        disableOnCheck: false,
+        scoreReported: 1
+      },
       l10n: 'I have completed the content.'
     }, params);
 
@@ -43,7 +46,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
     this.checkbox.setAttribute('id', `h5p-completion-confirmation-${contentId}`);
     this.checkbox.setAttribute('type', 'checkbox');
     this.checkbox.addEventListener('click', () => {
-      if (this.params.behaviour === true && this.isChecked()) {
+      if (this.params.behaviour.disableOnCheck === true && this.isChecked()) {
         this.checkbox.setAttribute('disabled', true);
       }
       this.triggerXAPI();
@@ -97,7 +100,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
     this.getXAPIAnswerEvent = () => {
       const xAPIEvent = this.createXAPIEvent('answered');
       const isChecked = this.isChecked();
-      xAPIEvent.setScoredResult( (isChecked) ? 1 : 0, 1, this, isChecked, isChecked);
+      xAPIEvent.setScoredResult( (isChecked) ? this.params.behaviour.scoreReported : 0, this.params.behaviour.scoreReported, this, isChecked, isChecked);
       xAPIEvent.data.statement.result.response = this.params.l10n;
       return xAPIEvent;
     };

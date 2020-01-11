@@ -11,6 +11,10 @@
         {
           "label": "Disable on checked",
           "description": "If activated, the checkbox will be disabled after it has been checked."
+        },
+        {
+          "label": "Score to report",
+          "description": "Set the score that will be reported for completion."
         }
       ]
     },

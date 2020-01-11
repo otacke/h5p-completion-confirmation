@@ -38,6 +38,14 @@
         "description": "If activated, the checkbox will be disabled after it has been checked.",
         "optional": true,
         "default": false
+      },
+      {
+        "name": "scoreReported",
+        "type": "number",
+        "label": "Score to report",
+        "description": "Set the score that will be reported for completion.",
+        "default": 1,
+        "min": 0
       }
     ]
   },
