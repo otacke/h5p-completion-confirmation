@@ -29,7 +29,6 @@
     "importance": "low",
     "description": "These options will let you control how the task behaves.",
     "optional": true,
-    "default": false,
     "fields": [
       {
         "name": "disableOnCheck",
