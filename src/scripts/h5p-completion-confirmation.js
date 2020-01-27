@@ -98,7 +98,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
      * @return {H5P.XAPIEvent} XAPI answer event.
      */
     this.getXAPIAnswerEvent = () => {
-      const xAPIEvent = this.createXAPIEvent('answered');
+      const xAPIEvent = this.createXAPIEvent('completed');
       const isChecked = this.isChecked();
       xAPIEvent.setScoredResult( (isChecked) ? this.params.behaviour.scoreReported : 0, this.params.behaviour.scoreReported, this, isChecked, isChecked);
       xAPIEvent.data.statement.result.response = this.params.l10n;
