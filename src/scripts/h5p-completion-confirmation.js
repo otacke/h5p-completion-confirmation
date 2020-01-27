@@ -90,15 +90,17 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
      * Trigger all necessary xAPI events after evaluation. Might become more.
      */
     this.triggerXAPI = () => {
-      this.trigger(this.getXAPIAnswerEvent());
+      this.trigger(this.getXAPIResultEvent('answered'));  // Trigger activity completion in moodle plugin
+      this.trigger(this.getXAPIResultEvent('completed')); // Trigger getCurrentState in H5P core
     };
 
     /**
-     * Build xAPI answer event.
-     * @return {H5P.XAPIEvent} XAPI answer event.
+     * Build xAPI event with results.
+     * @param {string} [verb='answered'] Verb for xAPI statement.
+     * @return {H5P.XAPIEvent} XAPI event with results.
      */
-    this.getXAPIAnswerEvent = () => {
-      const xAPIEvent = this.createXAPIEvent('completed');
+    this.getXAPIResultEvent = (verb = 'answered') => {
+      const xAPIEvent = this.createXAPIEvent(verb);
       const isChecked = this.isChecked();
       xAPIEvent.setScoredResult( (isChecked) ? this.params.behaviour.scoreReported : 0, this.params.behaviour.scoreReported, this, isChecked, isChecked);
       xAPIEvent.data.statement.result.response = this.params.l10n;
