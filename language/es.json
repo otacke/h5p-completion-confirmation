@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Descripción",
+      "description": "Describir lo que sea relevante acerca de esta confirmación"
+    },
+    {
+      "label": "Configuraciones del comportamiento",
+      "description": "Estas opciones le permiten controlar como se comporta el trabajo.",
+      "fields": [
+        {
+          "label": "Deshabilitar al elegir",
+          "description": "Si se activa, las casillas de selección serán deshabilitadas después de haber sido activado."
+        },
+        {
+          "label": "Puntaje a reportar",
+          "description": "Configurar el puntaje que será reportado para finalización."
+        }
+      ]
+    },
+    {
+      "label": "Interfaz del usuario",
+      "default": "He completado el contenido.",
+      "fields": [
+        {
+          "label": "Texto de casilla de selección",
+          "description": "Frase que describe lo que es confirmado al activar la casilla."
+        }
+      ]
+    }
+  ]
+}
