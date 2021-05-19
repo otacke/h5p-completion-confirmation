@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Popis",
+      "description": "Popište, co je na tomto potvrzení relevantní"
+    },
+    {
+      "label": "Nastavení chování",
+      "description": "Tyto možnosti vám umožní nastavit chování úkolu.",
+      "fields": [
+        {
+          "label": "Při zaškrtnutí zakázat",
+          "description": "Je-li aktivováno, zaškrtávací políčko bude zaškrtnutím deaktivováno."
+        },
+        {
+          "label": "Nahlášené skóre",
+          "description": "Nastavit skóre, které bude hlášeno při dokončení."
+        }
+      ]
+    },
+    {
+      "label": "Uživatelské rozhraní",
+      "default": "Dokončil jsem obsah.",
+      "fields": [
+        {
+          "label": "Text zaškrtávacího políčka",
+          "description": "Prohlášení, které popisuje, co je potvrzeno zaškrtnutím políčka."
+        }
+      ]
+    }
+  ]
+}
