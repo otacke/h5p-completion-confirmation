@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Beskrivning",
+      "description": "Beskriv vad som är relevant med denna bekräftelse"
+    },
+    {
+      "label": "Beteende-inställningar",
+      "description": "Dessa inställningar låter dig styra hur uppgiften beter sig.",
+      "fields": [
+        {
+          "label": "Inaktivera vid ibockning",
+          "description": "Om aktiverad, så kommer krysssrutan att inaktiveras när den bockats i."
+        },
+        {
+          "label": "Poäng att rapportera",
+          "description": "Ange poängen som ska rapporteras vid genomförande."
+        }
+      ]
+    },
+    {
+      "label": "Användargränssnitt",
+      "default": "Jag har genomfört detta innehåll.",
+      "fields": [
+        {
+          "label": "Text för kryssruta",
+          "description": "Påstående som beskriver vad som bekräftas när kryssrutan bockas i."
+        }
+      ]
+    }
+  ]
+}
