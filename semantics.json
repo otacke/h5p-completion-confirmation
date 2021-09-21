@@ -1,7 +1,7 @@
 [
   {
     "label": "Description",
-    "description": "Describe what is relevant about this confirmation",
+    "description": "Describe what is relevant about this confirmation.",
     "optional": true,
     "importance": "high",
     "name": "description",

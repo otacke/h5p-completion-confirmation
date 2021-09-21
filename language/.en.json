@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Description",
-      "description": "Describe what is relevant about this confirmation"
+      "description": "Describe what is relevant about this confirmation."
     },
     {
       "label": "Behavioural settings",
