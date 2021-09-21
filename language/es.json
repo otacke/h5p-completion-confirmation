@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Descripción",
-      "description": "Describir lo que sea relevante acerca de esta confirmación"
+      "description": "Describir lo que sea relevante acerca de esta confirmación."
     },
     {
       "label": "Configuraciones del comportamiento",
@@ -10,7 +10,7 @@
       "fields": [
         {
           "label": "Deshabilitar al elegir",
-          "description": "Si se activa, las casillas de selección serán deshabilitadas después de haber sido activado."
+          "description": "Si se activa, las casillas de selección serán deshabilitadas después de haber sido activada."
         },
         {
           "label": "Puntaje a reportar",
