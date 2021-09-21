@@ -7,6 +7,7 @@ src
 .idea
 .git
 .babelrc
+.eslintrc.json
 .gitmodules
 .h5pignore
 .travis.yml
