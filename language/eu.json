@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Deskribapena",
+      "description": "Deskribatu ezazu baieztatze honi buruz esanguratsua dena."
+    },
+    {
+      "label": "Portaeraren ezarpenak",
+      "description": "Aukera hauek lanaren portaera kontrolatzea ahalbidetzen dizute.",
+      "fields": [
+        {
+          "label": "Desgaitu markatuta dagoenean",
+          "description": "Gaituz gero, laukitxoa desgaituko da markatua izan ondoren."
+        },
+        {
+          "label": "Bidali beharreko puntuazioa",
+          "description": "Zehaztu ezazu osaketarako bidaliko den puntuazioa."
+        }
+      ]
+    },
+    {
+      "label": "Erabiltzaile-interfazea",
+      "default": "Edukia osatu dut.",
+      "fields": [
+        {
+          "label": "Laukitxoaren testua",
+          "description": "Laukitxoa markatzerakoan onartzen dena azaltzen duen esaldia."
+        }
+      ]
+    }
+  ]
+}
