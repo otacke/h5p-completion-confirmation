@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Apraksts",
+      "description": "Aprakstiet, kas ir būtisks šajā apstiprinājumā."
+    },
+    {
+      "label": "Uzvedības iestatījumi",
+      "description": "Šie iestatījumi ļaus jums kontrolēt uzdevuma uzvedību.",
+      "fields": [
+        {
+          "label": "Atspējot, kad ir atzīmēts",
+          "description": "Ja aktivizēts, izvēles rūtiņa būs atspējota pēc tās atzīmēšanas."
+        },
+        {
+          "label": "Paziņojamais rezultāts",
+          "description": "Iestatiet rezultātu, kas tiks paziņots priekš pabeigšanas."
+        }
+      ]
+    },
+    {
+      "label": "Lietotāja saskarne",
+      "default": "Esmu pabeidzis saturu.",
+      "fields": [
+        {
+          "label": "Izvēles rūtiņas teksts",
+          "description": "Paziņojums, kurā aprakstīts, kas tiek apstiprināts, atzīmējot izvēles rūtiņu."
+        }
+      ]
+    }
+  ]
+}
