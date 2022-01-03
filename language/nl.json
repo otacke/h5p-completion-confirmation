@@ -2,7 +2,7 @@
   "semantics": [
     {
       "label": "Beschrijving",
-      "description": "Beschrijf wat relevant is aan deze bevestiging"
+      "description": "Beschrijf wat relevant is aan deze bevestiging."
     },
     {
       "label": "Gedragsinstellingen",
@@ -13,14 +13,14 @@
           "description": "Indien geactiveerd, wordt het selectievakje uitgeschakeld nadat het is aangevinkt."
         },
         {
-          "label": "Te rapporteren score",
+          "label": "Score om te rapporteren",
           "description": "Stel de score in die gerapporteerd wordt voor de voltooiing."
         }
       ]
     },
     {
       "label": "Gebruikersinterface",
-      "default": "Ik heb de inhoud bekeken.",
+      "default": "Ik heb de inhoud voltooid.",
       "fields": [
         {
           "label": "Tekst selectievakje",
