@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Descrición",
+      "description": "Describe a parte relevante desta confirmación."
+    },
+    {
+      "label": "Configuración de comportamento",
+      "description": "Estas opcións permítenche controlar o comportamento da tarefa.",
+      "fields": [
+        {
+          "label": "Desactivado se está marcado",
+          "description": "Se está activo, a caixa de verificación será desactivada despois de marcala."
+        },
+        {
+          "label": "Puntuación para informar",
+          "description": "Establece a puntuación da que se informará para o completado."
+        }
+      ]
+    },
+    {
+      "label": "Interface de usuario",
+      "default": "Completei o contido.",
+      "fields": [
+        {
+          "label": "Texto da caixa de verificación",
+          "description": "Texto que describe o confirmado ao marcar a caixa de verificación."
+        }
+      ]
+    }
+  ]
+}

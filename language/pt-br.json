@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Descrição",
+      "description": "Descreva o que é relevante nesta confirmação."
+    },
+    {
+      "label": "Configurações comportamentais",
+      "description": "Essas opções permitem controlar como a tarefa se comporta.",
+      "fields": [
+        {
+          "label": "Desativar quando marcado",
+          "description": "Se ativada, a caixa de seleção será desativada após ser marcada."
+        },
+        {
+          "label": "Pontuação a informar",
+          "description": "Defina a pontuação que será informada para conclusão."
+        }
+      ]
+    },
+    {
+      "label": "Interface de usuário",
+      "default": "Concluí o conteúdo.",
+      "fields": [
+        {
+          "label": "Texto da caixa de seleção",
+          "description": "Afirmação que descreve o que é confirmado marcando a caixa de seleção."
+        }
+      ]
+    }
+  ]
+}
