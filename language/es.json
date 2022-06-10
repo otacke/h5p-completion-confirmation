@@ -10,7 +10,7 @@
       "fields": [
         {
           "label": "Desactivado al marcar",
-          "description": "Si se activa, las casillas de selección serán deshabilitadas después de haber sido activada."
+          "description": "Si se activa, las casillas de selección serán deshabilitadas después de haber sido activadas."
         },
         {
           "label": "Puntuación a informar",
