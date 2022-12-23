@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Aprašymas",
+      "description": "Apibūdinkite, kas yra svarbu šiame patvirtinime."
+    },
+    {
+      "label": "Veikimo nustatymai",
+      "description": "Šios parinktys leis jums valdyti, kaip veikia užduotis.",
+      "fields": [
+        {
+          "label": "Išjungti pažymėjus",
+          "description": "Jei suaktyvinta, žymimasis laukelis bus išjungtas, kai jis bus pažymėtas."
+        },
+        {
+          "label": "Balas ataskaitai",
+          "description": "Nustatykite balą, apie kurį bus pranešta užbaigus."
+        }
+      ]
+    },
+    {
+      "label": "Naudotojo sąsaja",
+      "default": "Aš baigiau turinį.",
+      "fields": [
+        {
+          "label": "Žymėjimo laukelio tekstas",
+          "description": "Pareiškimas, kuriame aprašoma, kas patvirtinama pažymėjus žymimąjį laukelį."
+        }
+      ]
+    }
+  ]
+}
