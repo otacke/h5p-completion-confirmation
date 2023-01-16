@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Description",
+      "description": "Décrire ce qui est pertinent au sujet de cette confirmation."
+    },
+    {
+      "label": "Paramètres comportementaux",
+      "description": "Ces options vous permettront de contrôler le déroulement de la tâche.",
+      "fields": [
+        {
+          "label": "Bloquer lors de la vérification",
+          "description": "Si activée, la case à cocher sera inactivée après avoir été vérifiée."
+        },
+        {
+          "label": "Note à rapporter",
+          "description": "Définir la note qui sera rapportée pour l'achèvement."
+        }
+      ]
+    },
+    {
+      "label": "Interface utilisateur",
+      "default": "J’ai rempli le contenu.",
+      "fields": [
+        {
+          "label": "Texte de la case à cocher",
+          "description": "Déclaration décrivant ce qui est confirmé par la vérification de la case à cocher."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "semantics": [
+    {
+      "label": "Maelezo",
+      "description": "Eleza nini kinafaa kuhusu uthibitisho huu."
+    },
+    {
+      "label": "Mipangilio ya tabia",
+      "description": "Chaguzi hizi zitakuwezesha kudhibiti jinsi kazi inavyofanya.",
+      "fields": [
+        {
+          "label": "Weka alama kwenye Zima",
+          "description": "Ikiwashwa, kisanduku cha kuteua kitazimwa baada ya kuwekwa alama."
+        },
+        {
+          "label": "Alama ya kuripoti",
+          "description": "Weka alama ambayo itaripotiwa kwa ajili ya kukamilika."
+        }
+      ]
+    },
+    {
+      "label": "Kiolesura cha mtumiaji",
+      "default": "Nimekamilisha maudhui.",
+      "fields": [
+        {
+          "label": "Maandishi ya kisanduku cha kuteua",
+          "description": "Taarifa inayoelezea kile kilichothibitishwa kwa kuweka alama kisanduku cha kuteua."
+        }
+      ]
+    }
+  ]
+}
