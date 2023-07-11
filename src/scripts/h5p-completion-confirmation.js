@@ -1,13 +1,13 @@
-import Util from './h5p-completion-confirmation-util';
+import Util from '@scripts/h5p-completion-confirmation-util';
 
 export default class CompletionConfirmation extends H5P.EventDispatcher {
   /**
-   * @constructor
-   * @param {object} params Parameters passed by the editor.
+   * @class
+   * @param {object} [params] Parameters passed by the editor.
    * @param {number} contentId Content's id.
-   * @param {object} [extras] Saved state, metadata, etc.
+   * @param {object} [contentData] Saved state, metadata, etc.
    */
-  constructor(params, contentId, contentData = {}) {
+  constructor(params = {}, contentId, contentData = {}) {
     super();
 
     // Sanitize params
@@ -63,7 +63,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Attach library to wrapper.
-     * @param {jQuery} $wrapper Content's container.
+     * @param {H5P.jQuery} $wrapper Content's container.
      */
     this.attach = function ($wrapper) {
       $wrapper.get(0).classList.add('h5p-completion-confirmation');
@@ -72,7 +72,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Detect whether checkbox is checked.
-     * @return {boolean} True, if checkbox is checked.
+     * @returns {boolean} True, if checkbox is checked.
      */
     this.isChecked = () => {
       return this.checkbox.checked;
@@ -80,7 +80,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Detect whether checkbox is checked.
-     * @return {boolean} True, if checkbox is checked.
+     * @returns {boolean} True, if checkbox is checked.
      */
     this.isDisabled = () => {
       return this.checkbox.disabled;
@@ -91,18 +91,18 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
      */
     this.triggerXAPI = () => {
       this.trigger(this.getXAPIResultEvent('answered'));  // Trigger activity completion in moodle plugin
-      this.trigger(this.getXAPIResultEvent('completed')); // Trigger getCurrentState in H5P core
+      this.trigger(this.getXAPIResultEvent('progressed')); // Trigger getCurrentState in H5P core
     };
 
     /**
      * Build xAPI event with results.
-     * @param {string} [verb='answered'] Verb for xAPI statement.
-     * @return {H5P.XAPIEvent} XAPI event with results.
+     * @param {string} [verb] Verb for xAPI statement.
+     * @returns {H5P.XAPIEvent} XAPI event with results.
      */
     this.getXAPIResultEvent = (verb = 'answered') => {
       const xAPIEvent = this.createXAPIEvent(verb);
       const isChecked = this.isChecked();
-      xAPIEvent.setScoredResult( (isChecked) ? this.params.behaviour.scoreReported : 0, this.params.behaviour.scoreReported, this, isChecked, isChecked);
+      xAPIEvent.setScoredResult((isChecked) ? this.params.behaviour.scoreReported : 0, this.params.behaviour.scoreReported, this, isChecked, isChecked);
       xAPIEvent.data.statement.result.response = this.params.l10n;
       return xAPIEvent;
     };
@@ -110,7 +110,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
     /**
      * Create an xAPI event.
      * @param {string} verb Short id of the verb we want to trigger.
-     * @return {H5P.XAPIEvent} Event template.
+     * @returns {H5P.XAPIEvent} Event template.
      */
     this.createXAPIEvent = (verb) => {
       const xAPIEvent = this.createXAPIEventTemplate(verb);
@@ -122,12 +122,12 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Get the xAPI definition for the xAPI object.
-     * @return {object} XAPI definition.
+     * @returns {object} XAPI definition.
      */
     this.getxAPIDefinition = () => {
       const definition = {};
-      definition.name = {'en-US': this.getTitle()};
-      definition.description = {'en-US': this.getDescription() };
+      definition.name = { 'en-US': this.getTitle() };
+      definition.description = { 'en-US': this.getDescription() };
       definition.type = 'http://adlnet.gov/expapi/activities/cmi.interaction';
       definition.interactionType = 'true-false';
 
@@ -136,7 +136,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Get current state.
-     * @return {Object} Current state.
+     * @returns {object} Current state.
      */
     this.getCurrentState = () => {
       return {
@@ -147,7 +147,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Get tasks title.
-     * @return {string} Title.
+     * @returns {string} Title.
      */
     this.getTitle = () => {
       let raw;
@@ -161,7 +161,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
 
     /**
      * Get tasks description.
-     * @return {string} Description.
+     * @returns {string} Description.
      */
     this.getDescription = () => this.params.description || CompletionConfirmation.DEFAULT_DESCRIPTION;
   }
