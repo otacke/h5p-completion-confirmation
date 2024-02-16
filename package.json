@@ -1,6 +1,6 @@
 {
   "name": "h5p-completion-confirmation",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Confirmation tool for non-interactive host system content",
   "private": true,
   "scripts": {
