@@ -14,9 +14,9 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
     this.params = Util.extend({
       behaviour: {
         disableOnCheck: false,
-        scoreReported: 1
+        scoreReported: 1,
       },
-      l10n: 'I have completed the content.'
+      l10n: 'I have completed the content.',
     }, params);
 
     this.contentId = contentId;
@@ -107,7 +107,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
         this.params.behaviour.scoreReported,
         this,
         isChecked,
-        isChecked
+        isChecked,
       );
       xAPIEvent.data.statement.result.response = this.params.l10n;
       return xAPIEvent;
@@ -147,7 +147,7 @@ export default class CompletionConfirmation extends H5P.EventDispatcher {
     this.getCurrentState = () => {
       return {
         checked: this.isChecked(),
-        disabled: this.isDisabled()
+        disabled: this.isDisabled(),
       };
     };
 
