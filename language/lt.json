@@ -20,11 +20,11 @@
     },
     {
       "label": "Naudotojo sąsaja",
-      "default": "Aš baigiau turinį.",
       "fields": [
         {
           "label": "Žymėjimo laukelio tekstas",
-          "description": "Pareiškimas, kuriame aprašoma, kas patvirtinama pažymėjus žymimąjį laukelį."
+          "description": "Pareiškimas, kuriame aprašoma, kas patvirtinama pažymėjus žymimąjį laukelį.",
+          "default": "Aš baigiau turinį."
         }
       ]
     }

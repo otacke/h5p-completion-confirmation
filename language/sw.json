@@ -20,11 +20,11 @@
     },
     {
       "label": "Kiolesura cha mtumiaji",
-      "default": "Nimekamilisha maudhui.",
       "fields": [
         {
           "label": "Maandishi ya kisanduku cha kuteua",
-          "description": "Taarifa inayoelezea kile kilichothibitishwa kwa kuweka alama kisanduku cha kuteua."
+          "description": "Taarifa inayoelezea kile kilichothibitishwa kwa kuweka alama kisanduku cha kuteua.",
+          "default": "Nimekamilisha maudhui."
         }
       ]
     }

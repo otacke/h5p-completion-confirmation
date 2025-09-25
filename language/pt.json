@@ -20,11 +20,11 @@
     },
     {
       "label": "Interface de utilizador",
-      "default": "Concluí o conteúdo.",
       "fields": [
         {
           "label": "Texto da caixa de selecção",
-          "description": "Afirmação que descreve o que é confirmado marcando a caixa de selecção."
+          "description": "Afirmação que descreve o que é confirmado marcando a caixa de selecção.",
+          "default": "Concluí o conteúdo."
         }
       ]
     }

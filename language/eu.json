@@ -20,11 +20,11 @@
     },
     {
       "label": "Erabiltzaile-interfazea",
-      "default": "Edukia osatu dut.",
       "fields": [
         {
           "label": "Laukitxoaren testua",
-          "description": "Laukitxoa markatzerakoan onartzen dena azaltzen duen esaldia."
+          "description": "Laukitxoa markatzerakoan onartzen dena azaltzen duen esaldia",
+          "default": "Edukia osatu dut."
         }
       ]
     }

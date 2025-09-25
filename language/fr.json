@@ -20,11 +20,11 @@
     },
     {
       "label": "Interface utilisateur",
-      "default": "J’ai rempli le contenu.",
       "fields": [
         {
           "label": "Texte de la case à cocher",
-          "description": "Déclaration décrivant ce qui est confirmé par la vérification de la case à cocher."
+          "description": "Déclaration décrivant ce qui est confirmé par la vérification de la case à cocher.",
+          "default": "J’ai rempli le contenu."
         }
       ]
     }

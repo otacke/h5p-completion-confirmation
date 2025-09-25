@@ -20,11 +20,11 @@
     },
     {
       "label": "Gebruikersinterface",
-      "default": "Ik heb de inhoud voltooid.",
       "fields": [
         {
           "label": "Tekst selectievakje",
-          "description": "De verklaring die beschrijft wat er bevestigd wordt door het aanvinken van het selectievakje."
+          "description": "De verklaring die beschrijft wat er bevestigd wordt door het aanvinken van het selectievakje.",
+          "default": "Ik heb de inhoud voltooid."
         }
       ]
     }

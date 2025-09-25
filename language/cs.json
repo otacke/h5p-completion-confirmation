@@ -20,11 +20,11 @@
     },
     {
       "label": "Uživatelské rozhraní",
-      "default": "Dokončil jsem obsah.",
       "fields": [
         {
           "label": "Text zaškrtávacího políčka",
-          "description": "Prohlášení, které popisuje, co je potvrzeno zaškrtnutím políčka."
+          "description": "Prohlášení, které popisuje, co je potvrzeno zaškrtnutím políčka.",
+          "default": "Dokončil jsem obsah."
         }
       ]
     }

@@ -20,11 +20,11 @@
     },
     {
       "label": "Bedienoberfläche",
-      "default": "Ich habe den Inhalt abgeschlossen.",
       "fields": [
         {
           "label": "Text des Checkbox-Felds",
-          "description": "Aussage, die beschreibt, was durch das Setzen des Häkchens bestätigt wird."
+          "description": "Aussage, die beschreibt, was durch das Setzen des Häkchens bestätigt wird.",
+          "default": "Ich habe den Inhalt abgeschlossen."
         }
       ]
     }

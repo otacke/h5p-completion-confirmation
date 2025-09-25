@@ -20,11 +20,11 @@
     },
     {
       "label": "Interfaz de usuario",
-      "default": "He completado el contenido.",
       "fields": [
         {
           "label": "Texto de la casilla de verificación",
-          "description": "Frase que describe lo que se confirma al activar la casilla."
+          "description": "Frase que describe lo que se confirma al activar la casilla.",
+          "default": "He completado el contenido."
         }
       ]
     }

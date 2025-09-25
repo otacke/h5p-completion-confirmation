@@ -20,11 +20,11 @@
     },
     {
       "label": "Interface de usuario",
-      "default": "Completei o contido.",
       "fields": [
         {
           "label": "Texto da caixa de verificación",
-          "description": "Texto que describe o confirmado ao marcar a caixa de verificación."
+          "description": "Texto que describe o confirmado ao marcar a caixa de verificación.",
+          "default": "Completei o contido."
         }
       ]
     }

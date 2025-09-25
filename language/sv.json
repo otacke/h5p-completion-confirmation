@@ -20,11 +20,11 @@
     },
     {
       "label": "Användargränssnitt",
-      "default": "Jag har genomfört detta innehåll.",
       "fields": [
         {
           "label": "Text för kryssruta",
-          "description": "Påstående som beskriver vad som bekräftas när kryssrutan bockas i."
+          "description": "Påstående som beskriver vad som bekräftas när kryssrutan bockas i.",
+          "default": "Jag har genomfört detta innehåll."
         }
       ]
     }

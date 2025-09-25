@@ -54,14 +54,14 @@
     "common": true,
     "label": "User interface",
     "importance": "low",
-    "default": "I have completed the content.",
     "fields": [
       {
         "name": "checkBoxText",
         "type": "text",
         "label": "Checkbox text",
         "description": "Statement that describes what's confirmed by checking the checkbox.",
-        "importance": "low"
+        "importance": "low",
+        "default": "I have completed the content."
       }
     ]
   }

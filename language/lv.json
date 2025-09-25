@@ -20,11 +20,11 @@
     },
     {
       "label": "Lietotāja saskarne",
-      "default": "Esmu pabeidzis saturu.",
       "fields": [
         {
           "label": "Izvēles rūtiņas teksts",
-          "description": "Paziņojums, kurā aprakstīts, kas tiek apstiprināts, atzīmējot izvēles rūtiņu."
+          "description": "Paziņojums, kurā aprakstīts, kas tiek apstiprināts, atzīmējot izvēles rūtiņu.",
+          "default": "Esmu pabeidzis saturu."
         }
       ]
     }

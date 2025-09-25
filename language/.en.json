@@ -20,11 +20,11 @@
     },
     {
       "label": "User interface",
-      "default": "I have completed the content.",
       "fields": [
         {
           "label": "Checkbox text",
-          "description": "Statement that describes what's confirmed by checking the checkbox."
+          "description": "Statement that describes what's confirmed by checking the checkbox.",
+          "default": "I have completed the content."
         }
       ]
     }

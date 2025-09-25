@@ -20,11 +20,11 @@
     },
     {
       "label": "Interfaz del usuario",
-      "default": "He completado el contenido.",
       "fields": [
         {
           "label": "Texto de casilla de selección",
-          "description": "Frase que describe lo que es confirmado al activar la casilla."
+          "description": "Frase que describe lo que es confirmado al activar la casilla.",
+          "default": "He completado el contenido."
         }
       ]
     }
